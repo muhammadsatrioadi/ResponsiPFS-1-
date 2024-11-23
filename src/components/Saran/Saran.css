@@ -1,0 +1,104 @@
+/* src/components/Saran.css */
+
+/* Container Utama */
+.saran-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa75; /* Warna latar belakang */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+  }
+  
+  /* Heading */
+  .saran-container h2 {
+    color: #343a40; /* Warna teks */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  .saran-container form {
+    margin-bottom: 30px;
+  }
+  
+  .saran-container .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da; /* Warna border */
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .saran-container .form-control:focus {
+    border-color: #007bff; /* Border fokus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow fokus */
+  }
+  
+  /* Tombol */
+  .saran-container .btn-primary {
+    background-color: #007bff; /* Warna tombol */
+    border-color: #007bff;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .saran-container .btn-primary:hover {
+    background-color: #0056b3; /* Warna hover */
+    transform: scale(1.05); /* Efek zoom */
+  }
+  
+  /* Alert Styling */
+  .saran-container .alert {
+    margin-top: 20px;
+  }
+  
+  /* Daftar Saran */
+  .saran-container h3 {
+    color: #495057;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .saran-container .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Perataan tombol dengan teks */
+    background-color: #ffffff; /* Warna latar daftar */
+    border: 1px solid #ced4da; /* Border daftar */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .saran-container .list-group-item strong {
+    font-size: 1.2rem;
+    color: #343a40;
+  }
+  
+  .saran-container .list-group-item p {
+    margin: 10px 0;
+    color: #6c757d;
+  }
+  
+  /* Tombol Edit dan Delete */
+  .saran-container .list-group-item .btn-warning {
+    color: #ffffff;
+    background-color: #ffc107; /* Warna tombol Edit */
+    border-color: #ffc107;
+    margin-right: 10px; /* Jarak antar tombol */
+  }
+  
+  .saran-container .list-group-item .btn-warning:hover {
+    background-color: #e0a800; /* Warna hover tombol Edit */
+  }
+  
+  .saran-container .list-group-item .btn-danger {
+    color: #ffffff;
+    background-color: #dc3545; /* Warna tombol Delete */
+    border-color: #dc3545;
+  }
+  
+  .saran-container .list-group-item .btn-danger:hover {
+    background-color: #bd2130; /* Warna hover tombol Delete */
+  }
+  
